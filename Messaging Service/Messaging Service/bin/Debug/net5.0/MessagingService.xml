@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Messaging Service</name>
+    </assembly>
+    <members>
+        <member name="T:MessagingService.Controllers.MessagingService">
+            <summary>
+            Контроллер, с помощью которого происходит взаимодействие с API.
+            </summary>
+        </member>
+        <member name="P:MessagingService.Controllers.MessagingService.Messages">
+            <summary>
+            Свойство, используемое для записи в JSON файл messages.json и считывания информации из него.
+            </summary>
+        </member>
+        <member name="P:MessagingService.Controllers.MessagingService.Users">
+            <summary>
+            Свойство, используемое для записи в JSON файл users.json и считывания информации из него.
+            </summary>
+        </member>
+        <member name="M:MessagingService.Controllers.MessagingService.GetAllUsers">
+            <summary>
+            Запрос для получения списка всех пользователей.
+            </summary>
+            <response code="200">Получен список пользователей.</response>
+            <response code="400">Произошла какая-то ошибка.</response>
+            <response code="404">Список пользователей пуст.</response>
+            <returns>Статус 200 и список пользователей, иначе статус 404,
+            если список пользователей пуст.</returns>
+        </member>
+        <member name="M:MessagingService.Controllers.MessagingService.GetAllMessages">
+            <summary>
+            Запрос для получения списка всех сообщений.
+            </summary>
+            <response code="200">Получен список сообщений.</response>
+            <response code="400">Произошла какая-то ошибка.</response>
+            <response code="404">Список сообщений пуст.</response>
+            <returns>Статус 200 и список сообщений, иначе статус 404,
+            если список сообщений пуст.</returns>
+        </member>
+        <member name="M:MessagingService.Controllers.MessagingService.GetUsers(System.Int32,System.Int32)">
+            <summary>
+            Запрос для получения списка пользователей
+            с учетом параметров сдвига и количества.
+            </summary>
+            <response code="200">Получен список пользователей.</response>
+            <response code="400">Неверное значение сдвига или количества./Произошла какая-то ошибка.</response>
+            <response code="404">Список пользователей пуст.</response>
+            <param name="limit">Количество пользователей.</param>
+            <param name="offset">Сдвиг поиска.</param>
+            <returns>Статус 200 и список пользователей, статус 404, если список пуст,
+            статус 400, если количество неположительное или сдивг отрицательный.</returns>
+        </member>
+        <member name="M:MessagingService.Controllers.MessagingService.GetUser(System.String)">
+            <summary>
+            Запрос для получения пользователя по его почте.
+            </summary>
+            <response code="200">Получен пользователь.</response>
+            <response code="400">Произошла какая-то ошибка.</response>
+            <response code="404">Пользователя с такой почтой не существует.</response>
+            <param name="email">Почта пользователя.</param>
+            <returns>Статус 200 и искомый пользователь, иначе статус 404,
+            если пользователя с такой почтой не существует.</returns>
+        </member>
+        <member name="M:MessagingService.Controllers.MessagingService.GetMessages(System.String,System.String)">
+            <summary>
+            Запрос для получения сообщений по отправителю и получателю.
+            </summary>
+            <response code="200">Получен список сообщений.</response>
+            <response code="400">Произошла какая-то ошибка.</response>
+            <response code="404">Нет сообщений с таким отправителем и получателем.</response>
+            <param name="sender">Почта отправителя.</param>
+            <param name="receiver">Почта получателя.</param>
+            <returns>Статус 200 и список сообщений, иначе статус 404,
+            если нет сообщений с таким получателем и отправителем.</returns>
+        </member>
+        <member name="M:MessagingService.Controllers.MessagingService.GetMessagesBySender(System.String)">
+            <summary>
+            Запрос для получения сообщений по отправителю.
+            </summary>
+            <response code="200">Получен список сообщений.</response>
+            <response code="400">Произошла какая-то ошибка.</response>
+            <response code="404">Нет сообщений с таким отправителем.</response>
+            <param name="sender">Почта отправителя.</param>
+            <returns>Статус 200 и список сообщений, иначе статус 404,
+            если нет сообщений с таким отправителем.</returns>
+        </member>
+        <member name="M:MessagingService.Controllers.MessagingService.GetMessagesByReceiver(System.String)">
+            <summary>
+            Запрос для получения сообщений по получателю.
+            </summary>
+            <response code="200">Получен список сообщений.</response>
+            <response code="400">Произошла какая-то ошибка.</response>
+            <response code="404">Нет сообщений с таким получателем.</response>
+            <param name="receiver">Почта получателя.</param>
+            <returns>Статус 200 и список сообщений, иначе статус 404,
+            если нет сообщений с таким получателем.</returns>
+        </member>
+        <member name="M:MessagingService.Controllers.MessagingService.Generate">
+            <summary>
+            Генерирует списки пользователей и сообщений.
+            При этом проводит сортировку пользователей по почте.
+            </summary>
+            <response code="200">Сгенерирован новые списки сообщений и пользователей.</response>
+            <response code="400">Произошла какая-то ошибка.</response>
+            <returns>Статус 200.</returns>
+        </member>
+        <member name="M:MessagingService.Controllers.MessagingService.AddUser(MessagingService.Models.User)">
+            <summary>
+            Запрос для добавления пользователя.
+            При этом проводит сортировку пользователей по почте.
+            </summary>
+            <response code="200">Добавлен новый пользователь.</response>
+            <response code="400">Пользователь с такой почтой уже существует./Произошла какая-то ошибка.</response>
+            <param name="user">Пользователь.</param>
+            <returns>Статус 200 и добавляет пользователя, иначе статус 400,
+            если пользователь с такой почтой уже есть.</returns>
+        </member>
+        <member name="M:MessagingService.Controllers.MessagingService.AddMessage(MessagingService.Models.Messages)">
+            <summary>
+            Запрос для добавления сообщения.
+            </summary>
+            <response code="200">Добавлено новое сообщение.</response>
+            <response code="400">Не существует отправителя или получателя с такой почтой./Произошла какая-то ошибка.</response>
+            <param name="newMessage">Сообщение.</param>
+            <returns>Статус 200 и добавляет сообщение, иначе статус 400,
+            если отправителя или получателя с такой почтой нет.</returns>
+        </member>
+        <member name="M:MessagingService.Generator.GenerateUsers">
+            <summary>
+            Метод для генерации списка пользователей.
+            Всегда генерируется 10 пользователей.
+            </summary>
+            <returns>Список пользователей.</returns>
+        </member>
+        <member name="M:MessagingService.Generator.GenerateMessages(System.Collections.Generic.List{MessagingService.Models.User})">
+            <summary>
+            Метод для генерации списка сообщений.
+            Всегда генерируется 10 сообщений.
+            </summary>
+            <returns>Список сообщений.</returns>
+        </member>
+        <member name="M:MessagingService.Generator.GetMessage(System.Collections.Generic.List{System.String})">
+            <summary>
+            Метод для генерации сообщения.
+            </summary>
+            <param name="emails">Список почт.</param>
+            <returns>Сообщение.</returns>
+        </member>
+        <member name="M:MessagingService.Generator.GenerateName">
+            <summary>
+            Метод для генерации имени пользователя.
+            </summary>
+            <returns>Имя.</returns>
+        </member>
+        <member name="M:MessagingService.Generator.GenerateEmail">
+            <summary>
+            Метод для генерации почты пользователя.
+            </summary>
+            <returns>Почта.</returns>
+        </member>
+        <member name="T:MessagingService.Models.Messages">
+            <summary>
+            Класс, представляющий собой сообщение.
+            </summary>
+        </member>
+        <member name="P:MessagingService.Models.Messages.Subject">
+            <summary>
+            Тема сообщения.
+            </summary>      
+        </member>
+        <member name="P:MessagingService.Models.Messages.Message">
+            <summary>
+            Текст сообщения.
+            </summary>
+        </member>
+        <member name="P:MessagingService.Models.Messages.SenderId">
+            <summary>
+            Почта отправителя.
+            </summary>
+        </member>
+        <member name="P:MessagingService.Models.Messages.ReceiverId">
+            <summary>
+            Почта получателя.
+            </summary>
+        </member>
+        <member name="M:MessagingService.Models.Messages.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Конструктор для задания значений свойствам.
+            </summary>
+            <param name="subject">Тема.</param>
+            <param name="message">Текст.</param>
+            <param name="sender">Почта отправителя.</param>
+            <param name="receiver">Почта получателя.</param>
+        </member>
+        <member name="M:MessagingService.Models.Messages.#ctor">
+            <summary>
+            Беспараметрический конструктор.
+            </summary>
+        </member>
+        <member name="T:MessagingService.Models.User">
+            <summary>
+            Класс, представляющий собой пользователя.
+            </summary>
+        </member>
+        <member name="P:MessagingService.Models.User.UserName">
+            <summary>
+            Имя пользователя.
+            </summary>    
+        </member>
+        <member name="P:MessagingService.Models.User.Email">
+            <summary>
+            Почта пользователя, он же идентификатор.
+            </summary>    
+        </member>
+        <member name="M:MessagingService.Models.User.#ctor(System.String,System.String)">
+            <summary>
+            Конструктор для задания значений свойствам.
+            </summary>
+            <param name="name">Имя.</param>
+            <param name="email">Почта.</param>        
+        </member>
+        <member name="M:MessagingService.Models.User.#ctor">
+            <summary>
+            Беспараметрический конструктор.
+            </summary>
+        </member>
+    </members>
+</doc>

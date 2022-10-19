@@ -1,0 +1,66 @@
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\appsettings.Development.json
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\appsettings.json
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Messaging Service.exe
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Messaging Service.deps.json
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Messaging Service.runtimeconfig.json
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Messaging Service.runtimeconfig.dev.json
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Messaging Service.dll
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\ref\Messaging Service.dll
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Messaging Service.pdb
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.csproj.AssemblyReference.cache
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.AssemblyInfoInputs.cache
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.AssemblyInfo.cs
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.MvcApplicationPartsAssemblyInfo.cs
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.MvcApplicationPartsAssemblyInfo.cache
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\staticwebassets\Messaging Service.StaticWebAssets.Manifest.cache
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\staticwebassets\Messaging Service.StaticWebAssets.xml
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\scopedcss\bundle\Messaging Service.styles.css
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.RazorTargetAssemblyInfo.cache
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.csproj.CopyComplete
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.dll
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\ref\Messaging Service.dll
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.pdb
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.genruntimeconfig.cache
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.Annotations.dll
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\MessagingService.xml
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\messages.json
+E:\Visual Studio\Проекты\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\users.json
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\appsettings.Development.json
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\appsettings.json
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Messaging Service.exe
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\MessagingService.xml
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Messaging Service.deps.json
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Messaging Service.runtimeconfig.json
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Messaging Service.runtimeconfig.dev.json
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Messaging Service.dll
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\ref\Messaging Service.dll
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Messaging Service.pdb
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.Annotations.dll
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.csproj.AssemblyReference.cache
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.AssemblyInfoInputs.cache
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.AssemblyInfo.cs
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.MvcApplicationPartsAssemblyInfo.cs
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.MvcApplicationPartsAssemblyInfo.cache
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\staticwebassets\Messaging Service.StaticWebAssets.Manifest.cache
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\staticwebassets\Messaging Service.StaticWebAssets.xml
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\scopedcss\bundle\Messaging Service.styles.css
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.RazorTargetAssemblyInfo.cache
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.csproj.CopyComplete
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.dll
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\ref\Messaging Service.dll
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.pdb
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\obj\Debug\net5.0\Messaging Service.genruntimeconfig.cache
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\messages.json
+E:\Visual Studio\Проекты\Тесты\Проверка пиров\Messaging Service\Messaging Service\Messaging Service\bin\Debug\net5.0\users.json
